@@ -74,23 +74,21 @@
 // Task 5
 
 
-/*
+
 {
 
-  let a = Number (prompt('Введите число а'));
+  function math (a,b){
 
-  let b = Number (prompt('Введите число b'));
-
-  let c = a - b ;
-
-  if(c > 0){
+   let c= Math.abs(a-b);
     console.log(c);
-  }else{
-    console.log(Math.abs(c));
+
   }
+math (3,5);
+math (6,1);
+
 
 }
-*/
+
 
 
 
